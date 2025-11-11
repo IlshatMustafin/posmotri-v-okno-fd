@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;/*s_1_1*/
+  justify-content: center;/*s_1_1*/
+  align-items: center;/*s_1_1*/
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -48,4 +51,109 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+.content {
+  display: flex;/*s_1_2*/
+  align-items: flex-end;/*s_1_2*/
+  width: 1140px;/*s_1_3*/
+  gap: 30px;/*s_1_3*/
+}
+
+.result__video-container {
+  width: 711px;/*s_2_1*/
+  height: 400px;/*s_2_1*/
+  margin-bottom: 16px;/*s_2_1*/
+}
+
+.result__video {
+  width: 100%;/*s_2_2*/
+  height: 100%;/*s_2_2*/
+  object-fit: contain;/*s_2_2*/
+}
+
+.search-form {
+  display: flex;/*s_1_4*/
+  justify-content: space-between;/*s_1_4*/
+  align-items: flex-start;/*s_1_4*/
+}
+
+.search-form__fieldset-title {
+  font-size: 18px;/*s_3_1*/
+  font-weight: 400;/*s_3_1*/
+  margin-bottom: 5px;/*s_3_1*/
+}
+
+.content__details {
+  flex: 1;/*s_1_6*/
+}
+
+.title {
+  font-family: 'Oswald';/*s_3_2*/
+  font-size: 75px;/*s_3_2*/
+  font-weight: 700;/*s_3_2*/
+  line-height: 95%;/*s_3_2*/
+  text-transform: uppercase;/*s_3_2*/
+  margin-bottom: 26px;/*s_1_6*/
+}
+
+.content__accent {
+  color: #545050;/*s_3_2*/
+}
+
+.content__list-container {
+  height: 298px;/*s_1_5*/
+  overflow-y: scroll;/*s_1_5*/
+  display: flex;/*s_2_4*/
+  flex-direction: column;/*s_2_4*/
+  gap: 30px;/*s_2_4*/
+}
+
+.content__list {
+  display: flex;/*s_2_3*/
+  flex-direction: column;/*s_2_3*/
+  gap: 30px;/*s_2_3*/
+}
+
+.content__card-link {
+  text-decoration: none;/*s_3_3*/
+  color: #fff;/*s_3_3*/
+}
+
+.content__video-card {
+  display: flex;/*s_2_5*/
+  align-items: flex-start;/*s_2_5*/
+}
+
+.content__video-card-thumbnail {
+  min-width: 193px;/*s_2_6*/
+  height: 103px;/*s_2_6*/
+  object-fit: contain;/*s_2_6*/
+  object-position: right 0;/*s_2_6*/
+}
+
+.content__video-card-description-container {
+  width: 196px;
+  height: 103px;
+  flex-grow: 1;/*s_2_7*/
+}
+
+.content__video-card-title {
+  font-family: 'Oswald';/*s_3_4*/
+  font-size: 30px;/*s_3_4*/
+  font-weight: 700;/*s_3_4*/
+  line-height: 100%;/*s_3_4*/
+  text-transform: uppercase;/*s_3_4*/
+  white-space: nowrap;/*s_3_4*/
+  text-overflow: ellipsis;/*s_3_4*/
+  overflow: hidden;/*s_3_4*/
+  margin-bottom: 6px;
+}
+
+.content__video-card-description {
+  line-height: 16.2px;/*s_3_5*/
+  display: -webkit-box;/*s_3_5*/
+  -webkit-line-clamp: 4;/*s_3_5*/
+  -webkit-box-orient: vertical;/*s_3_5*/
+  overflow: hidden;/*s_3_5*/
 }
