@@ -271,7 +271,7 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  min-width: 194;
+  min-width: 194px;
   height: 109px;
   object-fit: contain;
   object-position: right 0;
